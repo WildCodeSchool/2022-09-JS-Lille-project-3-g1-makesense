@@ -8,5 +8,5 @@ $font-text: Helvetica, Arial, sans-serif;
 $font-size: 1.5em;
 
 :root {
-  height: $mainHeight;
+  min-height: $mainHeight;
 }

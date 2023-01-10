@@ -1,3 +1,7 @@
+.suggestdetail {
+  width: 100%;
+}
+
 .main {
   display: flex;
   flex-direction: row;
@@ -9,9 +13,11 @@
   width: 70vw;
 }
 
-.description,
-.repercution,
-h2 {
+.contentDescription,
+.contentRepercution,
+.titleDesc,
+.titleCon,
+.titleSuggest {
   padding: 0 1rem;
 }
 
@@ -41,4 +47,10 @@ h2 {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
+}
+
+@media (max-width: 450px) {
+  .main {
+    flex-direction: column;
+  }
 }

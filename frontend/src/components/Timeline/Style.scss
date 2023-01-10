@@ -68,3 +68,12 @@
 .timelineItem.active .timelineContent::before {
   background-color: orange;
 }
+
+@media (max-width: 450px) {
+  .timelineContent {
+    padding: 2px 0;
+  }
+  .timelineContent::before {
+    display: none;
+  }
+}
